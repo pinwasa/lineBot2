@@ -27,7 +27,7 @@ if (userText =='สวัสดีค่ะ') :
       sendText(user,'ดีจ้ะ')
     elif (sendText == 'สบายดีไหม') :  
       sendText  (user,'สบายดี')
-    elif (userText == 'เธอล่ะ') :
+    else :
       sendText  (user,'ว่าไงนะ)
     return '',200
 
