@@ -24,8 +24,8 @@ def callback():
     userText = decoded['queryResult']['intent']['displayName']
     #sendText(user,userText)
     if (userText=='หวัดดีค้า') :
-       sedText(user,'สบายดีมั้ย')
-    elif (usenrText == 'สบายมากๆ') :
+       sedText(user,'สบายดีไหม')
+    elif (usenrText == 'อยู่ดีกินดี') :
        sedText (user,'มีไรรึเปล่าคะ')
     else :
       sedText(user,'ว่าไงนะคะ')
